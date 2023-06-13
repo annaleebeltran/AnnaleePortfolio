@@ -1,0 +1,84 @@
+/*The astrick applies the following css initally, then changed if the respective class/ID is called */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+
+/* nav tag makes the nav bar appeat to the upper right corner */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+p {
+    font-size: 16px;
+}
+
+.profile-pic {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/propic.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-mehead, .myWork, .contactInfo {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.details {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.footer h2 {
+    font-size: 20px;
+}
