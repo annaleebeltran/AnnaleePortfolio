@@ -29,4 +29,4 @@ This is a portfolio for Annalee. It is a website that will showcase her work and
 
 # URL 
 This link will demostrate the user Annalee's portfolio.
-* http://127.0.0.1:5500/AnnaleePortfolio/index.html#work
+* https://annaleebeltran.github.io/AnnaleePortfolio/
